@@ -6,6 +6,13 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+.title {
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 121px; // Temp
+}
+
 .card {
 	background: url("../img/house.png");
 	background-repeat: no-repeat;
@@ -15,15 +22,16 @@
 
 	.card-info {
 		display: block;
-		font-size: 15px;
+		font-size: 18px;
 		padding-top: 10px;
 		padding-bottom: 35px;
 		padding-left: 10px;
 
 		.card-info-title {
 			display: inline-block;
-			font-size: 7.5px;
 			background-color: white;
+			font-size: 20px;
+			font-weight: bold;
 			padding-left: 4px;
 			padding-right: 15px;
 		}
@@ -31,7 +39,7 @@
 		.card-info-details {
 			margin-top: 2px;
 			display: flex;
-			width: 80px;
+			width: 90px;
 			background-color: white;
 			padding-left: 4px;
 			padding-right: 15px;
