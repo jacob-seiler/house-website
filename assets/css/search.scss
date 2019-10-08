@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.card {
+	background: url("../img/house.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	margin: 5px;
+
+	.card-info {
+		display: block;
+		font-size: 15px;
+		padding-top: 10px;
+		padding-bottom: 35px;
+		padding-left: 10px;
+
+		.card-info-title {
+			display: inline-block;
+			font-size: 7.5px;
+			background-color: white;
+			padding-left: 4px;
+			padding-right: 15px;
+		}
+
+		.card-info-details {
+			margin-top: 2px;
+			display: flex;
+			width: 80px;
+			background-color: white;
+			padding-left: 4px;
+			padding-right: 15px;
+
+			p {
+				margin-right: 12px;
+			}
+		}
+
+		.card-info-landlord {
+			margin-top: 2px;
+			display: inline-block;
+			background-color: white;
+			padding-left: 4px;
+			padding-right: 15px;
+		}
+	}
+}
